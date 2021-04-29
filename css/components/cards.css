@@ -1,0 +1,97 @@
+/* Your card CSS file */
+
+/* Cards */
+
+/* Breakfast Card*/
+
+.card-category {
+  display: flex;
+  margin: 0 auto;
+  width: 400px;
+  height: 180px;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 6px 5px 0px 2px rgb(0 0 0 / 18%);
+  border: solid 0.5px black;
+}
+
+/*Product Card*/
+
+.card-product {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin: 30px auto;
+  /* border: solid 1px; */
+  border: solid 0.5px;
+  box-shadow: 6px 5px 0px 2px rgb(0 0 0 / 18%);
+}
+
+.left-img-card img {
+  width: 150px;
+}
+
+.product_name-description-card {
+  padding-left: 8px;
+}
+
+.product_name-description-card h2{
+  margin-bottom: 5px;
+}
+
+.product_name-description-card p{
+  margin-top: 5px;
+}
+
+.product_name {
+  font-weight: bold;
+}
+
+/*Trip Card*/
+
+.card-trip {
+    width: 400px;
+    margin: 30px auto;
+    box-shadow: 6px 5px 0px 2px rgb(0 0 0 / 18%);
+    border: solid 0.5px;
+}
+
+.card-trip img {
+    width:inherit;
+}
+
+.bottom_card-trip {
+  display: flex;
+  padding: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom_card-trip h2{
+  margin-bottom: 5px;
+  height: 20px;
+}
+
+.bottom_card-trip p{
+  margin-top: 5px;
+}
+
+.title-left_card-trip {
+  padding-left: 6px;
+}
+
+
+.price-right_card-trip {
+  padding-right: 8px;
+  font-size: 25px;
+}
+
+/*For this exercice*/
+
+.card-img-title-paragraph {
+  text-align: center;
+}
